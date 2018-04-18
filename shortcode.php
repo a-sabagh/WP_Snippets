@@ -12,7 +12,9 @@ function rng_shortcode_SHORTCODENAME( $atts, $content ) {
     //USE CONTENT
     $content;
     //RETURN VALUE
-	return "OUTPOUT";
+    ob_start();
+    $outpout = ob_get_clean();
+	return $outpout;
 }
 
 add_shortcode( 'SHORTCODENAME', 'rng_shortcode_SHORTCODENAME' );
