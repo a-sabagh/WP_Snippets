@@ -40,3 +40,9 @@ add_action( 'TAXONOMY_add_form_fields', 'rng_TAXMETA_INPUT_NAME_add', 50 );
 add_action( 'created_TAXONOMY', 'rng_TAXMETA_INPUT_NAME_created' );
 add_action( 'TAXONOMY_edit_form_fields', 'rng_TAXMETA_INPUT_NAME_edit', 50 );
 add_action( 'edited_TAXONOMY', 'rng_TAXMETA_INPUT_NAME_update' );
+
+/*
+TAXMETA_INPUT_NAME
+TAXMETA_NAME
+TAXONOMY
+*/
