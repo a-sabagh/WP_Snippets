@@ -4,7 +4,7 @@ function rng_TAXMETA_INPUT_NAME_add() {
 
 	?>
 <p>sample input</p>
-<input type="text" name="input_name" vlaue="">
+<input type="text" name="TAXMETA_INPUT_NAME" vlaue="">
 <?php
 }
 
