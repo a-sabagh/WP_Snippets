@@ -1,0 +1,18 @@
+.rngwp-btn-wrapper {
+    width: 100%;
+    margin: 15px auto;
+	overflow: hidden;
+}
+.wp-core-ui.button.rng-btn-select {
+	float: right;
+	width: 50%;
+	border-radius: 0 8px 8px 0;
+	height: 35px;
+}
+.wp-core-ui.button.rng-btn-reset2 {
+	float: left;
+	width: 50%;
+	border-radius: 8px 0 0 8px;
+	border-right: none;
+	height: 35px;
+}
