@@ -1,7 +1,7 @@
 jQuery(document).ready(function($){
     //wp file uploader
     var file_frame;
-    $('.rng-button-banner2').live('click', function (event) {
+    $('.rng-button-banner2').on('click', function (event) {
         event.preventDefault();
         window.prev_element = $(this).prev('.rng-link-banner2');
         window.next_element = $(this).next('.rng-btn-reset2');
