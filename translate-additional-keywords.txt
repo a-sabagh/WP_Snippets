@@ -1,0 +1,6 @@
+__
+_e
+esc_attr__
+esc_attr_e
+esc_html__
+esc_html_e
